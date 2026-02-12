@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smart 10 - Juego de Preguntas</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Pantalla de inicio -->
+        <div id="start-screen" class="screen active">
+            <h1>🎯 Smart 10</h1>
+            <p class="subtitle">Preguntas en el centro, 10 opciones alrededor. Tocad cada opción para ver la respuesta.</p>
+            <button id="start-game-btn" class="btn-primary">Empezar partida</button>
+        </div>
+
+        <!-- Pantalla de juego -->
+        <div id="game-screen" class="screen">
+            <div class="nav-bar">
+                <button id="prev-question-btn" class="btn-nav" title="Pregunta anterior">⬅️</button>
+                <div class="question-selector">
+                    <label for="question-select">Pregunta:</label>
+                    <select id="question-select"></select>
+                </div>
+                <button id="next-question-btn" class="btn-nav" title="Siguiente pregunta">➡️</button>
+            </div>
+
+            <div class="question-layout">
+                <div class="question-center" id="question-center">
+                    <!-- Pregunta en el centro -->
+                </div>
+                <div class="options-ring" id="options-container">
+                    <!-- 10 opciones alrededor; cada una muestra texto y al pulsar la respuesta -->
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="questions.js"></script>
+    <script src="game.js"></script>
+</body>
+</html>
