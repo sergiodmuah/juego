@@ -615,5 +615,231 @@ const SMART10_QUESTIONS = [
             { text: "Eurocopa 1988", answer: "Holanda" },
             { text: "Eurocopa 1984", answer: "Francia" }
         ]
+    },
+
+    // --- MÁS FÚTBOL ---
+    {
+        type: "true_false",
+        question: "¿Este jugador ha jugado en el Real Madrid?",
+        options: [
+            { text: "Cristiano Ronaldo", answer: "Verdadero" },
+            { text: "Mbappé", answer: "Verdadero" },
+            { text: "Benzema", answer: "Verdadero" },
+            { text: "Messi", answer: "Falso" },
+            { text: "Beckham", answer: "Verdadero" },
+            { text: "Ronaldo Nazário", answer: "Verdadero" },
+            { text: "Zidane", answer: "Verdadero" },
+            { text: "Neymar", answer: "Falso" },
+            { text: "Figo", answer: "Verdadero" },
+            { text: "Haaland", answer: "Falso" }
+        ]
+    },
+    {
+        type: "true_false",
+        question: "¿Este equipo juega en LaLiga?",
+        options: [
+            { text: "Real Madrid", answer: "Verdadero" },
+            { text: "Barcelona", answer: "Verdadero" },
+            { text: "Atlético de Madrid", answer: "Verdadero" },
+            { text: "Sevilla", answer: "Verdadero" },
+            { text: "Valencia", answer: "Verdadero" },
+            { text: "Real Betis", answer: "Verdadero" },
+            { text: "Athletic Club", answer: "Verdadero" },
+            { text: "Espanyol", answer: "Verdadero" },
+            { text: "Getafe", answer: "Verdadero" },
+            { text: "Benfica", answer: "Falso" }
+        ]
+    },
+    {
+        type: "exact",
+        question: "¿Cuántos Mundiales ha ganado este país?",
+        options: [
+            { text: "Brasil", answer: "5" },
+            { text: "Alemania", answer: "4" },
+            { text: "Italia", answer: "4" },
+            { text: "Argentina", answer: "3" },
+            { text: "Francia", answer: "2" },
+            { text: "Uruguay", answer: "2" },
+            { text: "España", answer: "1" },
+            { text: "Inglaterra", answer: "1" },
+            { text: "Holanda", answer: "0" },
+            { text: "Portugal", answer: "0" }
+        ]
+    },
+    {
+        type: "order",
+        question: "Ordena estos jugadores por goles en Mundiales (1 = menos de la lista, 10 = más).",
+        options: [
+            { text: "Iniesta", answer: "1º" },
+            { text: "Modric", answer: "2º" },
+            { text: "Zidane", answer: "3º" },
+            { text: "Kane", answer: "4º" },
+            { text: "Klose", answer: "5º (16 goles)" },
+            { text: "Ronaldo Nazário", answer: "6º (15)" },
+            { text: "Müller (Thomas)", answer: "7º" },
+            { text: "Messi", answer: "8º" },
+            { text: "Mbappé", answer: "9º" },
+            { text: "Cristiano Ronaldo", answer: "10º" }
+        ]
+    },
+    {
+        type: "exact",
+        question: "¿En qué equipo debutó este jugador como profesional?",
+        options: [
+            { text: "Messi", answer: "Barcelona" },
+            { text: "Cristiano Ronaldo", answer: "Sporting Lisboa" },
+            { text: "Neymar", answer: "Santos" },
+            { text: "Mbappé", answer: "Mónaco" },
+            { text: "Haaland", answer: "Bryne / Molde" },
+            { text: "Benzema", answer: "Lyon" },
+            { text: "Salah", answer: "Al Mokawloon" },
+            { text: "Kane", answer: "Tottenham" },
+            { text: "Vinicius Jr", answer: "Flamengo" },
+            { text: "Pedri", answer: "Las Palmas" }
+        ]
+    },
+    {
+        type: "true_false",
+        question: "¿Este jugador es o fue portero?",
+        options: [
+            { text: "Neuer", answer: "Verdadero" },
+            { text: "Courtois", answer: "Verdadero" },
+            { text: "Ter Stegen", answer: "Verdadero" },
+            { text: "Oblak", answer: "Verdadero" },
+            { text: "Alisson", answer: "Verdadero" },
+            { text: "Casillas", answer: "Verdadero" },
+            { text: "Buffon", answer: "Verdadero" },
+            { text: "Sergio Ramos", answer: "Falso" },
+            { text: "Ederson", answer: "Verdadero" },
+            { text: "De Gea", answer: "Verdadero" }
+        ]
+    },
+    {
+        type: "exact",
+        question: "¿Quién ganó la Champions esta temporada?",
+        options: [
+            { text: "2023/24", answer: "Real Madrid" },
+            { text: "2022/23", answer: "Manchester City" },
+            { text: "2021/22", answer: "Real Madrid" },
+            { text: "2020/21", answer: "Chelsea" },
+            { text: "2019/20", answer: "Bayern" },
+            { text: "2018/19", answer: "Liverpool" },
+            { text: "2017/18", answer: "Real Madrid" },
+            { text: "2016/17", answer: "Real Madrid" },
+            { text: "2015/16", answer: "Real Madrid" },
+            { text: "2014/15", answer: "Barcelona" }
+        ]
+    },
+    {
+        type: "true_false",
+        question: "¿Este jugador ha ganado la Copa América?",
+        options: [
+            { text: "Messi", answer: "Verdadero" },
+            { text: "Neymar", answer: "Falso" },
+            { text: "Suárez", answer: "Verdadero" },
+            { text: "Cavani", answer: "Verdadero" },
+            { text: "James Rodríguez", answer: "Verdadero" },
+            { text: "Cristiano Ronaldo", answer: "Falso" },
+            { text: "Di María", answer: "Verdadero" },
+            { text: "Vinicius Jr", answer: "Verdadero" },
+            { text: "Alisson", answer: "Verdadero" },
+            { text: "Mbappé", answer: "Falso" }
+        ]
+    },
+    {
+        type: "order",
+        question: "Ordena estos equipos por títulos de LaLiga (1 = menos, 10 = más).",
+        options: [
+            { text: "Getafe", answer: "1º (0)" },
+            { text: "Villarreal", answer: "2º (0)" },
+            { text: "Sevilla", answer: "3º (1)" },
+            { text: "Valencia", answer: "4º (6)" },
+            { text: "Athletic Club", answer: "5º (8)" },
+            { text: "Atlético de Madrid", answer: "6º (11)" },
+            { text: "Real Sociedad", answer: "7º (2)" },
+            { text: "Barcelona", answer: "8º (27)" },
+            { text: "Real Madrid", answer: "9º (36)" },
+            { text: "(Desglose)", answer: "10º" }
+        ]
+    },
+    {
+        type: "exact",
+        question: "¿Qué dorsal llevaba este jugador en su equipo más conocido?",
+        options: [
+            { text: "Messi (Barça)", answer: "10" },
+            { text: "Cristiano Ronaldo (Real Madrid)", answer: "7" },
+            { text: "Neymar (Barça)", answer: "11" },
+            { text: "Benzema (Real Madrid)", answer: "9" },
+            { text: "Salah (Liverpool)", answer: "11" },
+            { text: "Haaland (City)", answer: "9" },
+            { text: "Modric (Real Madrid)", answer: "10" },
+            { text: "De Bruyne (City)", answer: "17" },
+            { text: "Kane (Bayern)", answer: "9" },
+            { text: "Mbappé (PSG)", answer: "7" }
+        ]
+    },
+    {
+        type: "true_false",
+        question: "¿Este estadio es sede de un equipo de Primera?",
+        options: [
+            { text: "Santiago Bernabéu", answer: "Verdadero" },
+            { text: "Camp Nou", answer: "Verdadero" },
+            { text: "Wanda Metropolitano", answer: "Verdadero" },
+            { text: "San Mamés", answer: "Verdadero" },
+            { text: "Mestalla", answer: "Verdadero" },
+            { text: "Benito Villamarín", answer: "Verdadero" },
+            { text: "Ramón Sánchez-Pizjuán", answer: "Verdadero" },
+            { text: "Wembley", answer: "Falso (selección)" },
+            { text: "Olímpico Roma", answer: "Verdadero (Lazio/Roma)" },
+            { text: "Allianz Arena", answer: "Verdadero" }
+        ]
+    },
+    {
+        type: "exact",
+        question: "¿En qué año ganó este club su primera Champions?",
+        options: [
+            { text: "Real Madrid", answer: "1956" },
+            { text: "Barcelona", answer: "1992" },
+            { text: "Bayern", answer: "1974" },
+            { text: "Milan", answer: "1963" },
+            { text: "Liverpool", answer: "1977" },
+            { text: "Manchester United", answer: "1968" },
+            { text: "Inter", answer: "1964" },
+            { text: "Juventus", answer: "1985" },
+            { text: "Chelsea", answer: "2012" },
+            { text: "Manchester City", answer: "2023" }
+        ]
+    },
+    {
+        type: "true_false",
+        question: "¿Este jugador ha marcado en una final de Champions?",
+        options: [
+            { text: "Benzema", answer: "Verdadero" },
+            { text: "Vinicius Jr", answer: "Verdadero" },
+            { text: "Salah", answer: "Falso" },
+            { text: "Mane", answer: "Verdadero" },
+            { text: "Griezmann", answer: "Falso" },
+            { text: "Rodri (City)", answer: "Verdadero" },
+            { text: "Haaland", answer: "Falso" },
+            { text: "Dembélé", answer: "Falso" },
+            { text: "Bale", answer: "Verdadero" },
+            { text: "Ramos", answer: "Verdadero" }
+        ]
+    },
+    {
+        type: "order",
+        question: "Ordena por número de Balones de Oro (1 = ninguno, 10 = más).",
+        options: [
+            { text: "Haaland", answer: "1º (0)" },
+            { text: "Neymar", answer: "2º (0)" },
+            { text: "Modric", answer: "3º (1)" },
+            { text: "Benzema", answer: "4º (1)" },
+            { text: "Kaká", answer: "5º (1)" },
+            { text: "Ronaldinho", answer: "6º (1)" },
+            { text: "Cristiano Ronaldo", answer: "7º (5)" },
+            { text: "Messi", answer: "8º (8)" },
+            { text: "Platini", answer: "9º (3)" },
+            { text: "Cruyff", answer: "10º (3)" }
+        ]
     }
 ];

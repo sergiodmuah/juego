@@ -3,13 +3,12 @@
  * Sin equipos ni puntuación; eso lo lleváis vosotros.
  */
 
-const TOTAL_QUESTIONS_IN_GAME = 10;
 let questions = [];
 let currentIndex = 0;
 
 document.addEventListener("DOMContentLoaded", () => {
-    // Usar las primeras 10 del diccionario (o mezclar y tomar 10)
-    questions = SMART10_QUESTIONS.slice(0, TOTAL_QUESTIONS_IN_GAME);
+    // Usar todas las preguntas del diccionario (incluidas las de fútbol)
+    questions = [...SMART10_QUESTIONS];
 
     document.getElementById("start-game-btn").addEventListener("click", startGame);
     document.getElementById("prev-question-btn").addEventListener("click", () => goToQuestion(currentIndex - 1));
