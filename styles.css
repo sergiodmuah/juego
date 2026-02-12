@@ -124,7 +124,7 @@ body {
     color: #eee;
 }
 
-/* --- Layout: centro + opciones alrededor --- */
+/* --- Layout: escritorio = centro + opciones alrededor --- */
 .question-layout {
     position: relative;
     min-height: 420px;
@@ -157,7 +157,6 @@ body {
     color: #fff;
 }
 
-/* Anillo de 10 opciones alrededor del centro */
 .options-ring {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
@@ -216,39 +215,63 @@ body {
     color: #4ade80;
 }
 
-/* En móvil: 2 columnas para que las opciones se vean bien alrededor del concepto "centro" */
-@media (max-width: 520px) {
-    .options-ring {
-        grid-template-columns: repeat(2, 1fr);
-        gap: 12px;
-        padding: 12px;
+/* Móvil: pregunta arriba, opciones abajo */
+@media (max-width: 640px) {
+    .question-layout {
+        display: flex;
+        flex-direction: column;
+        min-height: 0;
+        gap: 20px;
     }
 
     .question-center {
-        width: 85%;
+        position: static;
+        transform: none;
+        width: 100%;
+        max-width: none;
+        min-height: 80px;
         padding: 20px 16px;
-        min-height: 90px;
+        order: 1;
     }
 
     .question-center .question-text {
-        font-size: 0.98rem;
+        font-size: 1rem;
+        line-height: 1.5;
+    }
+
+    .options-ring {
+        order: 2;
+        grid-template-columns: 1fr;
+        gap: 10px;
+        padding: 0;
     }
 
     .option-card {
-        min-height: 68px;
-        padding: 12px 10px;
+        min-height: 56px;
+        padding: 14px 16px;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        text-align: left;
     }
 
     .option-card .option-text {
-        font-size: 0.85rem;
+        margin-bottom: 0;
+        font-size: 0.95rem;
     }
 
     .option-card .option-answer {
-        font-size: 0.8rem;
+        font-size: 0.85rem;
+        text-align: right;
+    }
+
+    .option-card.revealed .option-answer {
+        margin-top: 0;
+        margin-left: 10px;
     }
 }
 
-@media (min-width: 521px) and (max-width: 700px) {
+@media (min-width: 641px) and (max-width: 700px) {
     .options-ring {
         grid-template-columns: repeat(5, 1fr);
     }
