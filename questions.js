@@ -341,5 +341,279 @@ const SMART10_QUESTIONS = [
             { text: "Caída Muro Berlín", answer: "9º" },
             { text: "COVID-19 pandemia", answer: "10º" }
         ]
+    },
+
+    // ========== FÚTBOL (preguntas 21 en adelante) ==========
+    {
+        type: "true_false",
+        question: "¿Este jugador ha ganado un Balón de Oro?",
+        options: [
+            { text: "Messi", answer: "Verdadero" },
+            { text: "Cristiano Ronaldo", answer: "Verdadero" },
+            { text: "Harry Kane", answer: "Falso" },
+            { text: "Modric", answer: "Verdadero" },
+            { text: "Benzema", answer: "Verdadero" },
+            { text: "Haaland", answer: "Falso" },
+            { text: "Kaká", answer: "Verdadero" },
+            { text: "Neymar", answer: "Falso" },
+            { text: "Ronaldinho", answer: "Verdadero" },
+            { text: "Salah", answer: "Falso" }
+        ]
+    },
+    {
+        type: "true_false",
+        question: "¿Este club ha ganado la Champions League?",
+        options: [
+            { text: "Real Madrid", answer: "Verdadero" },
+            { text: "Barcelona", answer: "Verdadero" },
+            { text: "Atlético de Madrid", answer: "Falso" },
+            { text: "Manchester City", answer: "Verdadero" },
+            { text: "PSG", answer: "Falso" },
+            { text: "Bayern Múnich", answer: "Verdadero" },
+            { text: "Juventus", answer: "Verdadero" },
+            { text: "Tottenham", answer: "Falso" },
+            { text: "Chelsea", answer: "Verdadero" },
+            { text: "Arsenal", answer: "Falso" }
+        ]
+    },
+    {
+        type: "true_false",
+        question: "¿Este jugador ha jugado en el FC Barcelona?",
+        options: [
+            { text: "Messi", answer: "Verdadero" },
+            { text: "Cristiano Ronaldo", answer: "Falso" },
+            { text: "Neymar", answer: "Verdadero" },
+            { text: "Suárez", answer: "Verdadero" },
+            { text: "Haaland", answer: "Falso" },
+            { text: "Iniesta", answer: "Verdadero" },
+            { text: "Mbappé", answer: "Falso" },
+            { text: "Piqué", answer: "Verdadero" },
+            { text: "Benzema", answer: "Falso" },
+            { text: "Pedri", answer: "Verdadero" }
+        ]
+    },
+    {
+        type: "true_false",
+        question: "¿Este país ha ganado un Mundial de fútbol?",
+        options: [
+            { text: "Brasil", answer: "Verdadero" },
+            { text: "España", answer: "Verdadero" },
+            { text: "Holanda", answer: "Falso" },
+            { text: "Argentina", answer: "Verdadero" },
+            { text: "Bélgica", answer: "Falso" },
+            { text: "Italia", answer: "Verdadero" },
+            { text: "Inglaterra", answer: "Verdadero" },
+            { text: "Portugal", answer: "Falso" },
+            { text: "Francia", answer: "Verdadero" },
+            { text: "Croacia", answer: "Falso" }
+        ]
+    },
+    {
+        type: "exact",
+        question: "¿En qué año ganó España el Mundial?",
+        options: [
+            { text: "Mundial 2010 Sudáfrica", answer: "2010" },
+            { text: "Eurocopa 2008", answer: "2008" },
+            { text: "Eurocopa 2012", answer: "2012" },
+            { text: "Mundial 2014 Brasil", answer: "Alemania 2014" },
+            { text: "Mundial 2018 Rusia", answer: "Francia 2018" },
+            { text: "Mundial 2022 Qatar", answer: "Argentina 2022" },
+            { text: "Eurocopa 2020", answer: "Italia 2021" },
+            { text: "Mundial 2006", answer: "Italia 2006" },
+            { text: "Eurocopa 2016", answer: "Portugal 2016" },
+            { text: "Mundial 2002", answer: "Brasil 2002" }
+        ]
+    },
+    {
+        type: "exact",
+        question: "¿Con qué selección jugaba este jugador en Mundiales?",
+        options: [
+            { text: "Messi", answer: "Argentina" },
+            { text: "Cristiano Ronaldo", answer: "Portugal" },
+            { text: "Neymar", answer: "Brasil" },
+            { text: "Mbappé", answer: "Francia" },
+            { text: "Kane", answer: "Inglaterra" },
+            { text: "Modric", answer: "Croacia" },
+            { text: "Courtois", answer: "Bélgica" },
+            { text: "Neuer", answer: "Alemania" },
+            { text: "Salah", answer: "Egipto" },
+            { text: "Son Heung-min", answer: "Corea del Sur" }
+        ]
+    },
+    {
+        type: "order",
+        question: "Ordena estos equipos por número de Champions/Copas de Europa (1 = menos, 10 = más).",
+        options: [
+            { text: "Atlético de Madrid", answer: "1º (0)" },
+            { text: "Arsenal", answer: "2º (0)" },
+            { text: "Manchester City", answer: "3º (1)" },
+            { text: "Chelsea", answer: "4º (2)" },
+            { text: "Juventus", answer: "5º (2)" },
+            { text: "Inter", answer: "6º (3)" },
+            { text: "Barcelona", answer: "7º (5)" },
+            { text: "Bayern", answer: "8º (6)" },
+            { text: "Milan", answer: "9º (7)" },
+            { text: "Real Madrid", answer: "10º (15)" }
+        ]
+    },
+    {
+        type: "exact",
+        question: "¿En qué equipo jugaba este futbolista en la temporada 2023/24?",
+        options: [
+            { text: "Messi", answer: "Inter Miami" },
+            { text: "Cristiano Ronaldo", answer: "Al-Nassr" },
+            { text: "Mbappé", answer: "Real Madrid" },
+            { text: "Haaland", answer: "Manchester City" },
+            { text: "Bellingham", answer: "Real Madrid" },
+            { text: "Vinicius Jr", answer: "Real Madrid" },
+            { text: "Kane", answer: "Bayern Múnich" },
+            { text: "Salah", answer: "Liverpool" },
+            { text: "Lewandowski", answer: "Barcelona" },
+            { text: "Neymar", answer: "Al-Hilal" }
+        ]
+    },
+    {
+        type: "true_false",
+        question: "¿Este jugador ha ganado un Mundial?",
+        options: [
+            { text: "Messi", answer: "Verdadero" },
+            { text: "Cristiano Ronaldo", answer: "Falso" },
+            { text: "Mbappé", answer: "Verdadero" },
+            { text: "Modric", answer: "Falso" },
+            { text: "Iniesta", answer: "Verdadero" },
+            { text: "Haaland", answer: "Falso" },
+            { text: "Neuer", answer: "Verdadero" },
+            { text: "Neymar", answer: "Falso" },
+            { text: "Griezmann", answer: "Verdadero" },
+            { text: "Kane", answer: "Falso" }
+        ]
+    },
+    {
+        type: "true_false",
+        question: "¿Este entrenador ha dirigido al Real Madrid?",
+        options: [
+            { text: "Ancelotti", answer: "Verdadero" },
+            { text: "Guardiola", answer: "Falso" },
+            { text: "Mourinho", answer: "Verdadero" },
+            { text: "Klopp", answer: "Falso" },
+            { text: "Zidane", answer: "Verdadero" },
+            { text: "Simeone", answer: "Falso" },
+            { text: "Benítez", answer: "Verdadero" },
+            { text: "Arteta", answer: "Falso" },
+            { text: "Pellegrini", answer: "Verdadero" },
+            { text: "Xavi", answer: "Falso" }
+        ]
+    },
+    {
+        type: "exact",
+        question: "¿Cuántas Champions tiene este club?",
+        options: [
+            { text: "Real Madrid", answer: "15" },
+            { text: "Milan", answer: "7" },
+            { text: "Bayern", answer: "6" },
+            { text: "Barcelona", answer: "5" },
+            { text: "Liverpool", answer: "6" },
+            { text: "Inter", answer: "3" },
+            { text: "Manchester United", answer: "3" },
+            { text: "Juventus", answer: "2" },
+            { text: "Chelsea", answer: "2" },
+            { text: "Atlético de Madrid", answer: "0" }
+        ]
+    },
+    {
+        type: "order",
+        question: "Ordena por año de nacimiento (1 = más joven, 10 = más mayor).",
+        options: [
+            { text: "Lamine Yamal", answer: "1º (2007)" },
+            { text: "Gavi", answer: "2º (2004)" },
+            { text: "Bellingham", answer: "3º (2003)" },
+            { text: "Haaland", answer: "4º (2000)" },
+            { text: "Mbappé", answer: "5º (1998)" },
+            { text: "Rodri", answer: "6º (1996)" },
+            { text: "Modric", answer: "7º (1985)" },
+            { text: "Messi", answer: "8º (1987)" },
+            { text: "Cristiano Ronaldo", answer: "9º (1985)" },
+            { text: "Thiago Silva", answer: "10º (1984)" }
+        ]
+    },
+    {
+        type: "true_false",
+        question: "¿Este jugador ha jugado en la Premier League?",
+        options: [
+            { text: "Haaland", answer: "Verdadero" },
+            { text: "Salah", answer: "Verdadero" },
+            { text: "Messi", answer: "Falso" },
+            { text: "Kane", answer: "Verdadero" },
+            { text: "De Bruyne", answer: "Verdadero" },
+            { text: "Benzema", answer: "Falso" },
+            { text: "Vinicius Jr", answer: "Falso" },
+            { text: "Son", answer: "Verdadero" },
+            { text: "Lewandowski", answer: "Falso" },
+            { text: "Bruno Fernandes", answer: "Verdadero" }
+        ]
+    },
+    {
+        type: "exact",
+        question: "¿En qué liga juega este equipo?",
+        options: [
+            { text: "Real Madrid", answer: "LaLiga" },
+            { text: "Liverpool", answer: "Premier League" },
+            { text: "Inter", answer: "Serie A" },
+            { text: "Bayern", answer: "Bundesliga" },
+            { text: "PSG", answer: "Ligue 1" },
+            { text: "Benfica", answer: "Primeira Liga" },
+            { text: "Ajax", answer: "Eredivisie" },
+            { text: "Celtic", answer: "Scottish Premiership" },
+            { text: "Boca Juniors", answer: "Liga Argentina" },
+            { text: "Flamengo", answer: "Brasileirão" }
+        ]
+    },
+    {
+        type: "order",
+        question: "Ordena estas finales de Mundial por año (1 = más antigua, 10 = más reciente).",
+        options: [
+            { text: "Italia 1990", answer: "1º" },
+            { text: "USA 1994", answer: "2º" },
+            { text: "Francia 1998", answer: "3º" },
+            { text: "Corea-Japón 2002", answer: "4º" },
+            { text: "Alemania 2006", answer: "5º" },
+            { text: "Sudáfrica 2010", answer: "6º" },
+            { text: "Brasil 2014", answer: "7º" },
+            { text: "Rusia 2018", answer: "8º" },
+            { text: "Qatar 2022", answer: "9º" },
+            { text: "USA-México-Canadá 2026", answer: "10º (próximo)" }
+        ]
+    },
+    {
+        type: "true_false",
+        question: "¿Este jugador ha sido Pichichi de LaLiga?",
+        options: [
+            { text: "Messi", answer: "Verdadero" },
+            { text: "Benzema", answer: "Verdadero" },
+            { text: "Lewandowski", answer: "Verdadero" },
+            { text: "Griezmann", answer: "Falso" },
+            { text: "Suárez", answer: "Verdadero" },
+            { text: "Cristiano Ronaldo", answer: "Verdadero" },
+            { text: "Vinicius Jr", answer: "Falso" },
+            { text: "Villa", answer: "Verdadero" },
+            { text: "Haaland", answer: "Falso" },
+            { text: "Eto'o", answer: "Verdadero" }
+        ]
+    },
+    {
+        type: "exact",
+        question: "¿Quién ganó la Eurocopa en este año?",
+        options: [
+            { text: "Eurocopa 2008", answer: "España" },
+            { text: "Eurocopa 2012", answer: "España" },
+            { text: "Eurocopa 2016", answer: "Portugal" },
+            { text: "Eurocopa 2020 (2021)", answer: "Italia" },
+            { text: "Eurocopa 2004", answer: "Grecia" },
+            { text: "Eurocopa 2000", answer: "Francia" },
+            { text: "Eurocopa 1996", answer: "Alemania" },
+            { text: "Eurocopa 1992", answer: "Dinamarca" },
+            { text: "Eurocopa 1988", answer: "Holanda" },
+            { text: "Eurocopa 1984", answer: "Francia" }
+        ]
     }
 ];
